@@ -1,0 +1,30 @@
+:root{
+    font-size: 60%;
+
+    --color-background: #E5E5E5;
+    --color-primary:#9A0FAF;
+    --color-secundary:#EA2377;
+    --color-text-base: #1E1B1B;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-background);
+
+}
+
+
+
+body,
+input,
+button,
+textarea{
+    font: 500 1.6rem Roboto;
+    color: var(--color-text-base);
+}

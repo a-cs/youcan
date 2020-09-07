@@ -1,0 +1,148 @@
+.top{
+    background: linear-gradient(to bottom, rgba(0, 15, 146, 0.2), rgba(0, 15, 146, 0.2)),
+    url(../../assets/images/top-img.png) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.top h3{
+    font-size: 2.5rem;
+    line-height: 40px;
+}
+
+.top h4{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.about{
+    background: #F5C161;
+    padding: 5.2rem 2.1rem;
+
+}
+
+.about h3{
+    color: var(--color-primary);
+    Font-Size: 3.4rem;
+
+}
+
+.about h4{
+    Font-Size: 2rem;
+    padding-top: 2rem;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 3.1rem;
+}
+
+.about button{
+    background: var(--color-secundary);
+    color: white;
+    font-size: 2.1rem;
+    padding: 1.7rem 4.2rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+}
+
+.numbers h3{
+    Font-Size: 9.4rem;
+    margin-right: 1.7rem;
+    color: var(--color-secundary);
+}
+
+.numbers h4{
+    Font-Size: 2.5rem;
+}
+
+.supporters{
+    margin: 2rem;
+}
+.supporters h3{
+    font-size: 2.5rem;
+}
+.supporter-logos{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.supporter-logos img{
+    max-height: 90px;
+    padding-top: 2rem;
+}
+
+@media (min-width: 700px){
+    .top{
+        height: 700px;
+        padding-left: 8rem;
+    }
+
+    .top h3{
+        font-size: 5rem;
+        line-height: 70px;
+    }
+
+    .top h4{
+        font-size: 3.3rem;
+    }
+
+    .about{
+        display: flex;
+
+        padding: 4.1rem 10.5rem 4.1rem 4.1rem;
+    }
+
+    .spacer{
+        flex: 1;
+    }
+
+    .about-title{
+        flex-basis: 45%;
+    }
+
+    .about-numbers{
+        flex-basis: 45%;
+    }
+    .about h3{
+        Font-Size: 4.2rem;
+    }
+
+    .about h4{
+        font-size: 3.4rem;
+        line-height: 48px;
+
+    }
+
+    .numbers h3{
+        Font-Size: 9.4rem;
+
+    }
+
+    .numbers h4{
+        font-size: 3.4rem;
+        line-height: 40px;
+        padding-right: 0;
+
+    }
+
+
+    .supporter-logos{
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .supporter-logos img{
+        padding-top: 3.1rem;
+    }
+}

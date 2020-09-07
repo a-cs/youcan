@@ -1,0 +1,54 @@
+.page-footer{
+    background: var(--color-primary);
+    color: #FFFFFF;
+    padding: 2.7rem 2rem 4rem;
+    margin-top: 2rem;
+
+}
+
+.social{
+    display: flex;
+    margin: 2rem 0
+}
+
+.social-networks{
+    padding-top: .5rem;
+    margin-right: 3.8rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.social-networks p {
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+    font-size: 1.5rem;
+}
+
+h4{
+    font-weight:700;
+    font-size: 1.9rem;
+}
+
+p {
+    font-family: Roboto;
+    font-weight:300;
+
+}
+
+h4 + p{
+    padding-top: 1.5rem;
+    padding-bottom: 1.4rem;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 700px){
+    .page-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .page-footer{
+        padding-bottom: 0rem;
+    }
+}

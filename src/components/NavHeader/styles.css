@@ -1,0 +1,53 @@
+.nav-header{
+    background: var(--color-background);
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--color-text-base);
+    padding: 1 .5rem;
+
+}
+#logo h1{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: var(--color-primary);
+
+}
+
+#logo h2{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--color-primary);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 2.1rem 0rem;
+}
+
+.space{
+    flex:1
+}
+
+.nav-items ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li{
+    padding: 0 3rem;
+    font-size: 1.8rem;
+}
+
+.nav-items a:hover,
+.nav-items a:active{
+    color: var(--color-primary);
+    border-bottom: 3px solid var(--color-primary);
+
+}
