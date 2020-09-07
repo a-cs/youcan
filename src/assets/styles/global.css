@@ -28,3 +28,7 @@ textarea{
     font: 500 1.6rem Roboto;
     color: var(--color-text-base);
 }
+
+a:hover{
+    transition: 0s;
+}

@@ -12,14 +12,14 @@ function MYFooter() {
             <div>
                 <h4>Nos siga nas redes sociais</h4>
                 <div className="social">
-                    <div className="social-networks">
+                    <a href="https://www.instagram.com/you.canmovement/" target="blank" className="social-networks">
                         <img src={instagramLogo} alt="Instagram" />
                         <p>Instagram</p>
-                    </div>
-                    <div className="social-networks">
+                    </a>
+                    <a href="https://www.linkedin.com/company/ycmovement" target="blank" className="social-networks">
                         <img src={linkedinLogo} alt="Linkedin" />
                         <p>Linkedin</p>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div>
