@@ -23,8 +23,8 @@ function MYFooter() {
                 </div>
             </div>
             <div>
-            <h4>Contato</h4>
-            <p>exemplo@aaaa.com</p>
+                <h4>Contato</h4>
+                <a href="mailto:movementyoucan@gmail.com"><p>movementyoucan@gmail.com</p></a>
             </div>
 
         </footer>

@@ -138,6 +138,7 @@
 .supporter-logos img{
     max-height: 90px;
     padding-top: 2rem;
+    flex-basis: 33%;
 }
 
 @media (min-width: 700px){

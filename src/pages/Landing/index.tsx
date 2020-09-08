@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import NavHeader from '../../components/NavHeader';
 import Footer from '../../components/Footer';
@@ -51,8 +52,9 @@ function Landing() {
                     <h3>Sobre a YOU CAN</h3>
                     <h4>Juntando pessoas de todas as partes do Brasil. Com foco em
                     <b> capacitar e informar </b>e <b>criar uma rede</b> de gente boa.</h4>
-
+                    <Link to="/comunity">
                     <button>Saiba mais</button>
+                    </Link>
                 </div>
                 <div className="spacer"></div>
 
