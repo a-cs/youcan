@@ -156,34 +156,37 @@
         font-size: 3.3rem;
     }
 
-    .about{
-        display: flex;
 
-        padding: 4.1rem 9.5rem 4.1rem 4.1rem;
+    .next-events {
+
+        margin: 3.2rem 4.2rem;
     }
 
     .events{
         display: flex;
         flex-wrap: wrap;
+        margin: 1rem 5.2rem 0 5.2rem;
     }
 
     .Card{
         margin-right: 2.1rem;
-        max-width: 30%;
+        flex-basis: 31%;
 
     }
 
     .next-events .cta{
         width: 30%;
         justify-content: center;
-
-
     }
 
     .spacer{
         flex: 1;
     }
 
+    .about{
+        display: flex;
+        padding: 4.1rem 9.5rem 4.1rem 4.1rem;
+    }
     .about-title{
         flex-basis: 45%;
     }
@@ -222,6 +225,9 @@
         margin-bottom: 2rem;
     }
 
+    .supporters{
+        margin: 4.2rem;
+    }
 
     .supporter-logos{
         flex-direction: row;

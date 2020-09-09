@@ -1,14 +1,14 @@
 import React from "react"
 import { BrowserRouter, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
-import Comunity from "./pages/Comunity";
+import Community from "./pages/Community";
 
 
 function Routes() {
     return (
         <BrowserRouter>
         <Route path="/" exact component={Landing} />
-        <Route path="/comunity" component={Comunity} />
+        <Route path="/community" component={Community} />
 
         </BrowserRouter>
     )

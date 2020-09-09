@@ -1,0 +1,50 @@
+.community{
+    margin: 2.6rem 4.2rem;
+}
+
+.community h3{
+    color: var(--color-primary);
+    font-size: 4.2rem;
+    line-height: 50px;
+    margin-bottom: 2.1rem;
+}
+
+.community h4{
+    font-weight: normal;
+    font-size: 2.1rem;
+    line-height: 32px;
+    margin-bottom: 3.2rem;
+}
+
+.departments h5{
+    color: var(--color-primary);
+    font-size: 2.5rem;
+
+}
+
+@media (min-width: 700px){
+    .departments h5{
+        margin-top: 5.2rem;
+        margin-bottom: 1.6rem
+    }
+
+    .members {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .CommunityCard img{
+        align-self: start;
+    }
+    .CommunityCard{
+        flex-basis: 30%;
+        margin-right: 1.1rem;
+    }
+    .Infos{
+        margin-left: 2.1rem;
+    }
+
+    .Infos h5{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

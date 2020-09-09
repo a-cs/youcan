@@ -22,7 +22,7 @@ function NavHeader() {
                 <div className="nav-items">
                     <ul>
                         <li><Link to="/">Início</Link></li>
-                        <li><Link to="/comunity">Comunidade</Link></li>
+                        <li><Link to="/community">Comunidade</Link></li>
                     </ul>
                 </div>
 

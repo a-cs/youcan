@@ -51,3 +51,10 @@ a{
     border-bottom: 3px solid var(--color-primary);
 
 }
+
+
+@media (min-width: 700px){
+    .nav-header{
+        margin: 0 40px;
+    }
+}

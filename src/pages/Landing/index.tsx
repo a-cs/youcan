@@ -32,11 +32,35 @@ function Landing() {
             <div className="next-events">
                 <h3>Próximos eventos</h3>
                 <div className="events">
-                    <EventCard title="O Poder das Vozes Negras" date="14/09" />
-                    <EventCard title="Da voz da aceitação para voz da transformação" date="15/09" />
-                    <EventCard title="Aprendizagem auto dirigida , transforme seu percurso" date="16/09" />
-                    <EventCard title="Tecnologia, se você gosta, você tem lugar" date="17/09" />
-                    <EventCard title="Brasileiros: Aqui é empreendedorismo raiz" date="18/09" />
+                    <EventCard
+                    title="O poder das vozes negras"
+                    description="Um tema relevânte e atual sobre a luta diária
+                    das pessoas negras no Brasil, vamos criar uma rede de
+                    reflexão sobre o tema."
+                    date="14/09" />
+                    <EventCard
+                    title="Diversidade"
+                    description="Um bate papo acolhedor e potente sobre como a
+                    sociedade e o mercado precisam se transformar para
+                    acompanhar o impacto de TODES."
+                    date="15/09" />
+                    <EventCard
+                    title="Educação"
+                    description="Descubra como aprender através da curiosidade
+                    pode ser fascinante, além de auxiliar na superação dos
+                    desafios"
+                    date="16/09" />
+                    <EventCard
+                    title="Tecnologia"
+                    description="De onde vem a inovação? Você verá que muitas
+                    tecnologias tem surgido e elas podem ser feitas por você."
+                    date="17/09" />
+                    <EventCard
+                    title="Empreendedorismo"
+                    description="Palavra da moda ou segredo do sucesso? Vamos
+                    mostrar o que é empreendedorismo raiz e te ajudar a
+                    entender se faz sentido pra você."
+                    date="18/09" />
 
                     <div className="cta">
                         <h4>Não fique de fora dessa</h4>
@@ -78,14 +102,6 @@ function Landing() {
             <div className="supporters">
                 <h3>Quem acredita nesse movimento</h3>
                 <div className="supporter-logos">
-                    <img src={fundacaoEstudar} alt="Fundação Estudar" />
-                    <img src={radiofobia} alt="RádioFobia" />
-                    <img src={fundacaoEstudar} alt="Fundação Estudar" />
-                    <img src={radiofobia} alt="RádioFobia" />
-                    <img src={fundacaoEstudar} alt="Fundação Estudar" />
-                    <img src={radiofobia} alt="RádioFobia" />
-                    <img src={fundacaoEstudar} alt="Fundação Estudar" />
-                    <img src={radiofobia} alt="RádioFobia" />
                     <img src={fundacaoEstudar} alt="Fundação Estudar" />
                     <img src={radiofobia} alt="RádioFobia" />
                 </div>
