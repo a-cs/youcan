@@ -1,6 +1,7 @@
 .top{
-    background: linear-gradient(to bottom, rgba(0, 15, 146, 0.2), rgba(0, 15, 146, 0.2)),
-    url(../../assets/images/top-img.png) no-repeat center;
+    background: linear-gradient(to bottom, rgba(86, 65, 86, 0.62), rgba(86, 65, 86, 0.62)),
+    url(../../assets/images/top-img.png) no-repeat;
+    background-position: 100% 0%;
     background-size: cover;
     height: 500px;
     color: #FFFFFF;
@@ -144,6 +145,7 @@
 @media (min-width: 700px){
     .top{
         height: 700px;
+        background-position: 40% 0%;
         padding-left: 8rem;
     }
 

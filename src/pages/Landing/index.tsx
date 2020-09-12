@@ -76,7 +76,7 @@ function Landing() {
                     <h3>Sobre a YOU CAN</h3>
                     <h4>Juntando pessoas de todas as partes do Brasil. Com foco em
                     <b> capacitar e informar </b>e <b>criar uma rede</b> de gente boa.</h4>
-                    <Link to="/comunity">
+                    <Link to="/community">
                     <button>Saiba mais</button>
                     </Link>
                 </div>
