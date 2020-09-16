@@ -125,6 +125,12 @@ function Comunity() {
                             city="São José dos Pinhais"
                             state="PR"
                             role="Facilitador" />
+                            <CommunityCard
+                            image="https://lh3.googleusercontent.com/u/0/d/1JKnJ3wzQ20o1voB50-gEvoH_pRj18Gze=w200-h190-p-k-nu-iv2"
+                            name="Jessica Montenegro"
+                            city="Recife"
+                            state="PE"
+                            role="Facilitadora" />
                     </div>
                 </div>
 
