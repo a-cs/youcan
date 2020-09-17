@@ -120,7 +120,7 @@ function Comunity() {
                             state="MG"
                             role="Facilitadora" />
                             <CommunityCard
-                            image="https://lh3.googleusercontent.com/fife/ABSRlIp7M-nqjdq_XIwYloFCAbAKK61wvvQplbT8pbUxWI3DHxTaXAwiLWnx_YWnes_0RK00HjpebIPy2W9ypELDKvFMzVHuFkXaxYxqp470UuQWhR6RjE0fvYwjkDTzeupdd8PE1PyfcBcbqZeIkkJEj-C1MG_KQTSEiRfeVqkbPyVOrw6eGlJl53xKD2bisoXMSR_1t2PDqLVpQuTSweDyMgrRL-XOnJ2MINt9dv8P1VYbXhEs-LRGHjdfl6vcqkXq9R0TuhzW8l87Wn8cnTjFd3KUvr2Vte4vMmq2XamCh4BQ4CcgykGXOiFDboVjwMpW5VXjyxyndqCo11m3KGtIvy0TMG08U18ssmZwg8fukbPYU5Vqkjh4jYW1cqPXwUnq8oFrJ_uZcej80n7gJo8Z0vDIdxCzZJJUxDjlOGv9ykF6O60XgLyIIGfgU8TDz_3Dnk8UbmNnO6-SOuRRLi3GqFoKb_kzpkA7hbFdNU_-m_6i8dxgHiAtuKuZDHV3laqLpjqzZDbhX7bM5xwpudru3k0q-XGiizlGaiCWvXXgtl_4gqG4B-gUBj3I7rf2Uc6oJMgh04L-MrwvypH8XvVrTBYxb_J_ty4nM66mlweAuZpHgv4OjuQLNwKrmLI7gl67Z_zjpzqz_QJYsqdqb42WfbIZ8T3PvW-We9sOG5nSjLWCV31OUlSZ0V17zyzpVY5UFADPfkgWMhv-cFAkQ8fi2HbCm0j6qmLUmQM=w200-h190-p-k-nu-ft"
+                            image="https://lh3.googleusercontent.com/u/0/d/1ycnmVrTtgqCJHR1EJLQu10beupabkvf6=w200-h190-p-k-nu-iv4"
                             name="Jonathan William"
                             city="São José dos Pinhais"
                             state="PR"
